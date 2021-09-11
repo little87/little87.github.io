@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-11T14:02:48.410Z</updated>
+  <updated>2021-09-11T14:08:33.769Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,19 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>how</title>
+    <title>How to change the background of the Blog?</title>
     <link href="http://example.com/2021/09/11/Changebackground/"/>
     <id>http://example.com/2021/09/11/Changebackground/</id>
     <published>2021-09-11T13:46:45.000Z</published>
-    <updated>2021-09-11T14:02:48.410Z</updated>
+    <updated>2021-09-11T14:08:33.769Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="How-to-change-the-background-of-the-blog-in-next-theme"><a href="#How-to-change-the-background-of-the-blog-in-next-theme" class="headerlink" title="How to change the background of the blog in next theme?"></a>How to change the background of the blog in next theme?</h2><h3 id="First-step"><a href="#First-step" class="headerlink" title="First step:"></a>First step:</h3><p>Open your next themes directory,find the document “_config.yml”<br>  as the following picture:</p><p><img src="/2021/09/11/Changebackground/1.png"></p><p>As you can see,I have canceled the symbol “#” before the last sentence.</p><h3 id="Second-step"><a href="#Second-step" class="headerlink" title="Second step"></a>Second step</h3><p>Open the source documentary, creat.   _data/styles.styl.And copy “styles.styl” to css documentary.</p><h3 id="Tird-step"><a href="#Tird-step" class="headerlink" title="Tird step:"></a>Tird step:</h3><p>Open next-&gt;source-&gt;css-&gt;main.styl, slide down to the bottom of the file</p><p>Add the syntax to the file:</p><p>  <img src="/2021/09/11/Changebackground/2.png"></p><p>Ok,if you have any problems,please comment.</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="How-to-change-the-background-of-the-blog-in-next-theme"><a href="#How-to-change-the-background-of-the-blog-in-next-theme" class="headerlink" title="How to change the background of the blog in next theme?"></a>How to change the background of the blog in next theme?</h2><h3 id="First-step"><a href="#First-step" class="headerlink" title="First step:"></a>First step:</h3><p>Open your next themes directory,find the document “_config.yml”<br>  as the following picture:</p><p><img src="/2021/09/11/Changebackground/1.png"></p><p>As you can see,I have canceled the symbol “#” before the last sentence.</p><span id="more"></span><h3 id="Second-step"><a href="#Second-step" class="headerlink" title="Second step"></a>Second step</h3><p>Open the source documentary, creat.   _data/styles.styl.And copy “styles.styl” to css documentary.</p><h3 id="Tird-step"><a href="#Tird-step" class="headerlink" title="Tird step:"></a>Tird step:</h3><p>Open next-&gt;source-&gt;css-&gt;main.styl, slide down to the bottom of the file</p><p>Add the syntax to the file:</p><p>  <img src="/2021/09/11/Changebackground/2.png"></p><p>Ok,if you have any problems,please comment.</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h2 id=&quot;How-to-change-the-background-of-the-blog-in-next-theme&quot;&gt;&lt;a href=&quot;#How-to-change-the-background-of-the-blog-in-next-theme&quot; class=&quot;hea</summary>
-      
+    <summary type="html">&lt;h2 id=&quot;How-to-change-the-background-of-the-blog-in-next-theme&quot;&gt;&lt;a href=&quot;#How-to-change-the-background-of-the-blog-in-next-theme&quot; class=&quot;headerlink&quot; title=&quot;How to change the background of the blog in next theme?&quot;&gt;&lt;/a&gt;How to change the background of the blog in next theme?&lt;/h2&gt;&lt;h3 id=&quot;First-step&quot;&gt;&lt;a href=&quot;#First-step&quot; class=&quot;headerlink&quot; title=&quot;First step:&quot;&gt;&lt;/a&gt;First step:&lt;/h3&gt;&lt;p&gt;Open your next themes directory,find the document “_config.yml”&lt;br&gt;  as the following picture:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2021/09/11/Changebackground/1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;As you can see,I have canceled the symbol “#” before the last sentence.&lt;/p&gt;</summary>
     
     
     
