@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-11T12:59:52.122Z</updated>
+  <updated>2021-09-11T14:02:48.410Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,13 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>how</title>
+    <link href="http://example.com/2021/09/11/Changebackground/"/>
+    <id>http://example.com/2021/09/11/Changebackground/</id>
+    <published>2021-09-11T13:46:45.000Z</published>
+    <updated>2021-09-11T14:02:48.410Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="How-to-change-the-background-of-the-blog-in-next-theme"><a href="#How-to-change-the-background-of-the-blog-in-next-theme" class="headerlink" title="How to change the background of the blog in next theme?"></a>How to change the background of the blog in next theme?</h2><h3 id="First-step"><a href="#First-step" class="headerlink" title="First step:"></a>First step:</h3><p>Open your next themes directory,find the document “_config.yml”<br>  as the following picture:</p><p><img src="/2021/09/11/Changebackground/1.png"></p><p>As you can see,I have canceled the symbol “#” before the last sentence.</p><h3 id="Second-step"><a href="#Second-step" class="headerlink" title="Second step"></a>Second step</h3><p>Open the source documentary, creat.   _data/styles.styl.And copy “styles.styl” to css documentary.</p><h3 id="Tird-step"><a href="#Tird-step" class="headerlink" title="Tird step:"></a>Tird step:</h3><p>Open next-&gt;source-&gt;css-&gt;main.styl, slide down to the bottom of the file</p><p>Add the syntax to the file:</p><p>  <img src="/2021/09/11/Changebackground/2.png"></p><p>Ok,if you have any problems,please comment.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;How-to-change-the-background-of-the-blog-in-next-theme&quot;&gt;&lt;a href=&quot;#How-to-change-the-background-of-the-blog-in-next-theme&quot; class=&quot;hea</summary>
+      
+    
+    
+    
+    
+    <category term="personaliz" scheme="http://example.com/tags/personaliz/"/>
+    
+  </entry>
+  
+  <entry>
     <title>My first paragraph in Blog.</title>
     <link href="http://example.com/2021/09/09/My-first-paragraph-in-Blog/"/>
     <id>http://example.com/2021/09/09/My-first-paragraph-in-Blog/</id>
     <published>2021-09-09T14:15:41.000Z</published>
     <updated>2021-09-11T12:59:52.122Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Introduction-for-myself"><a href="#Introduction-for-myself" class="headerlink" title="Introduction for myself."></a>Introduction for myself.</h2><p>I am studying in Gansu University of Chinese traditional medicine.</p><p>My major subject is Biomedic engineering.</p><hr><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="Introduction-for-myself"><a href="#Introduction-for-myself" class="headerlink" title="Introduction for myself."></a>Introduction for myself.</h2><p>I am studying in Gansu University of Chinese traditional medicine.</p><p>My major subject is Biomedic engineering.</p><hr><h2 id><a href="#" class="headerlink" title></a></h2>]]></content>
     
     
       
