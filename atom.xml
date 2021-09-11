@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-10T15:06:16.435Z</updated>
+  <updated>2021-09-11T12:59:52.122Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2021/09/09/My-first-paragraph-in-Blog/"/>
     <id>http://example.com/2021/09/09/My-first-paragraph-in-Blog/</id>
     <published>2021-09-09T14:15:41.000Z</published>
-    <updated>2021-09-10T15:06:16.435Z</updated>
+    <updated>2021-09-11T12:59:52.122Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Introduction-for-myself"><a href="#Introduction-for-myself" class="headerlink" title="Introduction for myself."></a>Introduction for myself.</h2><p>I am studying in Gansu University of Chinese traditional medicine.</p><p>My major subject is Biomedic engineering.</p><hr><h2 id="WhiteSpace-is-important"><a href="#WhiteSpace-is-important" class="headerlink" title="WhiteSpace is important."></a>WhiteSpace is important.</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="Introduction-for-myself"><a href="#Introduction-for-myself" class="headerlink" title="Introduction for myself."></a>Introduction for myself.</h2><p>I am studying in Gansu University of Chinese traditional medicine.</p><p>My major subject is Biomedic engineering.</p><hr><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
     
     
       
