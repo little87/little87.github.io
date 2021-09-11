@@ -18,6 +18,34 @@
   --btn-default-hover-color: #fff;
   --btn-default-hover-border-color: #222;
 }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg-color: #282828;
+    --content-bg-color: #333;
+    --card-bg-color: #555;
+    --text-color: #ccc;
+    --blockquote-color: #bbb;
+    --link-color: #ccc;
+    --link-hover-color: #eee;
+    --brand-color: #ddd;
+    --brand-hover-color: #ddd;
+    --table-row-odd-bg-color: #282828;
+    --table-row-hover-bg-color: #363636;
+    --menu-item-bg-color: #555;
+    --btn-default-bg: #222;
+    --btn-default-color: #ccc;
+    --btn-default-border-color: #555;
+    --btn-default-hover-bg: #666;
+    --btn-default-hover-color: #ccc;
+    --btn-default-hover-border-color: #666;
+  }
+  img {
+    opacity: 0.75;
+  }
+  img:hover {
+    opacity: 0.9;
+  }
+}
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -1136,30 +1164,27 @@ pre .javascript .function {
   display: inline-block;
 }
 .site-author-image {
-  border: 1px solid #eee;
   display: block;
   margin: 0 auto;
-  max-width: 120px;
-  padding: 2px;
+  padding: 5px;
+  max-width: 150px;
   border-radius: 50%;
-}
-.site-author-image {
-  transition: transform 1s ease-out;
+  transition: 2.5s all;
 }
 .site-author-image:hover {
-  transform: rotateZ(360deg);
+  transform: rotate(360deg);
 }
 .site-author-name {
+  margin: 0;
+  text-align: $site-author-name-align;
   color: var(--text-color);
   font-weight: 600;
-  margin: 0;
-  text-align: center;
 }
 .site-description {
-  color: #999;
-  font-size: 0.8125em;
   margin-top: 0;
-  text-align: center;
+  text-align: $site-description-align;
+  font-size: 0.8125em;
+  color: #999;
 }
 .links-of-author {
   margin-top: 15px;
@@ -1175,7 +1200,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #cbdfff;
+  background: #ffba05;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
