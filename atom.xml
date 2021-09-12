@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-11T14:08:33.769Z</updated>
+  <updated>2021-09-12T05:02:25.022Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>HTML</title>
+    <link href="http://example.com/2021/09/12/HTML/"/>
+    <id>http://example.com/2021/09/12/HTML/</id>
+    <published>2021-09-12T03:01:11.000Z</published>
+    <updated>2021-09-12T05:02:25.022Z</updated>
+    
+    <content type="html"><![CDATA[<h2>1.a标签</h2><a name="show1"></a><h3 id="This-paragraph-can-show-the-“a”-symbol-with-three-different-ways"><a href="#This-paragraph-can-show-the-“a”-symbol-with-three-different-ways" class="headerlink" title="This paragraph can show the “a” symbol with three different ways."></a>This paragraph can show the “a” symbol with three different ways.</h3><a href="#"> <p>this  syntax has only one symbol “#”,it means that if you click it ,the page will go back to the top.</p></a><span id="more"></span><hr><a name="any"><p>this syntax means that you can set any symbol or word as the mark.</p></a><a href="#any"><p>when you click this,it will show the location of your mark. </p></a> <hr><a id="any1"><p>this syntax means that you can set any symbol or word as the mark,its attribute is id.</p></a><a href="#any1"><p>when you click this,it will show the location of your mark. Remember that “#” sign is very important,please don’t miss it.</p></a> <h2>2.image</h2><h3 id="use-this-syntax-it-will-not-switch-to-a-new-line-automatically"><a href="#use-this-syntax-it-will-not-switch-to-a-new-line-automatically" class="headerlink" title="use this syntax: it will not switch to a new line automatically."></a>use this syntax: it will not switch to a new line automatically.</h3><p>​     img src=”” /  ; you also need to add bracket on the both side&lt;&gt;.</p><p>​     img src=”net address” .</p><p>​     title=”when you put the mouse on the picture,this sentence will be shown “</p><p>​     alt=”if the picture fails to load,this word will be shown”</p><p>​     width=”200px”   height=”300px”                 px:pixel像素</p><p>​     border=”2”         align=”left/center/right”</p><h3 id="For-example"><a href="#For-example" class="headerlink" title="For example"></a>For example<br></h3><p>use this :</p><p>​        img src=”gem.webp” title=”邓紫棋GEM” alt=”something wrong” width=”300px”             border=”1” align=”center”</p><p>​        Remember to add bracket on the both side.</p><a href="https://www.baidu.com"><img src="/2021/09/12/HTML/gem.webp" title="邓紫棋GEM" alt="something wrong" width="300px" border="1" align="center"></a><h3 id="how-to-get-the-picture-to-jump-to-your-destination-address-when-you-click-it"><a href="#how-to-get-the-picture-to-jump-to-your-destination-address-when-you-click-it" class="headerlink" title="how to get the picture to jump to your destination address when you click it ?"></a>how to get the picture to jump to your destination address when you click it ?</h3><p>answer: use “a” sign.   a href=”<a href="https://www.baidu.com&quot;/">https://www.baidu.com&quot;</a>     img      /a</p><hr><h2 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h2>  <ol>    <li>table: it means the whole table.</li>    <li>tr: table row</li>    <li>td: table data cell</li>    <li>th: table header cell</li>    <h4> <li>attribute</li></h4>    <h5>border</h5>    <h5>width:it has two value,percentage and pixel.</h5>    <h5>style: border-collapse:collapse</h5>      <h5>align:left center right</h5>    <h4><li>the attribute of tr:</li></h4>    <h5>align:left center right</h5>    <h5>valign:bottom top middle</h5>    <h5>bgcolor:pink</h5>    <h4><li>collapse cell</li></h4>     <h5>rowspan colspan</h5>  </ol><h3 id="for-example"><a href="#for-example" class="headerlink" title="for example:"></a>for example:</h3><table align="right">  <tr bgcolor="pink">    <th>grade</th>    <th>class</th>    <th>number</th>    <th>header teacher</th>  </tr>    <tr>    <td>senior one</td>    <td>one</td>    <td>one hundred</td>    <td>linfeng</td>  </tr>  <tr>    <td>senior one</td>    <th>two    </th><td>ninety nine</td>    <td>chenyun</td>  </tr></table>  ]]></content>
+    
+    
+    <summary type="html">&lt;h2&gt;1.a标签&lt;/h2&gt;&lt;a name=&quot;show1&quot;&gt;&lt;/a&gt;
+
+&lt;h3 id=&quot;This-paragraph-can-show-the-“a”-symbol-with-three-different-ways&quot;&gt;&lt;a href=&quot;#This-paragraph-can-show-the-“a”-symbol-with-three-different-ways&quot; class=&quot;headerlink&quot; title=&quot;This paragraph can show the “a” symbol with three different ways.&quot;&gt;&lt;/a&gt;This paragraph can show the “a” symbol with three different ways.&lt;/h3&gt;&lt;a href=&quot;#&quot;&gt; 
+
+&lt;p&gt;this  syntax has only one symbol “#”,it means that if you click it ,the page will go back to the top.&lt;/p&gt;
+&lt;/a&gt;</summary>
+    
+    
+    
+    
+    <category term="HTML" scheme="http://example.com/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ILETS</title>
+    <link href="http://example.com/2021/09/11/ILETS/"/>
+    <id>http://example.com/2021/09/11/ILETS/</id>
+    <published>2021-09-11T14:26:50.000Z</published>
+    <updated>2021-09-12T04:04:43.445Z</updated>
+    
+    
+    
+    
+    <category term="ILETS" scheme="http://example.com/categories/ILETS/"/>
+    
+    
+    <category term="English" scheme="http://example.com/tags/English/"/>
+    
+  </entry>
+  
+  <entry>
     <title>How to change the background of the Blog?</title>
     <link href="http://example.com/2021/09/11/Changebackground/"/>
     <id>http://example.com/2021/09/11/Changebackground/</id>
     <published>2021-09-11T13:46:45.000Z</published>
-    <updated>2021-09-11T14:08:33.769Z</updated>
+    <updated>2021-09-12T04:04:49.112Z</updated>
     
     <content type="html"><![CDATA[<h2 id="How-to-change-the-background-of-the-blog-in-next-theme"><a href="#How-to-change-the-background-of-the-blog-in-next-theme" class="headerlink" title="How to change the background of the blog in next theme?"></a>How to change the background of the blog in next theme?</h2><h3 id="First-step"><a href="#First-step" class="headerlink" title="First step:"></a>First step:</h3><p>Open your next themes directory,find the document “_config.yml”<br>  as the following picture:</p><p><img src="/2021/09/11/Changebackground/1.png"></p><p>As you can see,I have canceled the symbol “#” before the last sentence.</p><span id="more"></span><h3 id="Second-step"><a href="#Second-step" class="headerlink" title="Second step"></a>Second step</h3><p>Open the source documentary, creat.   _data/styles.styl.And copy “styles.styl” to css documentary.</p><h3 id="Tird-step"><a href="#Tird-step" class="headerlink" title="Tird step:"></a>Tird step:</h3><p>Open next-&gt;source-&gt;css-&gt;main.styl, slide down to the bottom of the file</p><p>Add the syntax to the file:</p><p>  <img src="/2021/09/11/Changebackground/2.png"></p><p>Ok,if you have any problems,please comment.</p>]]></content>
     
@@ -31,6 +72,8 @@
 &lt;p&gt;As you can see,I have canceled the symbol “#” before the last sentence.&lt;/p&gt;</summary>
     
     
+    
+    <category term="change background" scheme="http://example.com/categories/change-background/"/>
     
     
     <category term="personaliz" scheme="http://example.com/tags/personaliz/"/>
@@ -42,7 +85,7 @@
     <link href="http://example.com/2021/09/09/My-first-paragraph-in-Blog/"/>
     <id>http://example.com/2021/09/09/My-first-paragraph-in-Blog/</id>
     <published>2021-09-09T14:15:41.000Z</published>
-    <updated>2021-09-11T12:59:52.122Z</updated>
+    <updated>2021-09-12T04:04:45.360Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Introduction-for-myself"><a href="#Introduction-for-myself" class="headerlink" title="Introduction for myself."></a>Introduction for myself.</h2><p>I am studying in Gansu University of Chinese traditional medicine.</p><p>My major subject is Biomedic engineering.</p><hr><h2 id><a href="#" class="headerlink" title></a></h2>]]></content>
     
@@ -68,15 +111,12 @@
     <link href="http://example.com/2021/09/09/hello-world/"/>
     <id>http://example.com/2021/09/09/hello-world/</id>
     <published>2021-09-09T14:04:25.873Z</published>
-    <updated>2021-09-09T14:04:25.873Z</updated>
+    <updated>2021-09-12T04:04:47.743Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
     
     
     
