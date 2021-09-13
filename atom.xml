@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-12T13:49:48.596Z</updated>
+  <updated>2021-09-13T07:33:31.098Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CSS</title>
+    <link href="http://example.com/2021/09/13/CSS/"/>
+    <id>http://example.com/2021/09/13/CSS/</id>
+    <published>2021-09-13T07:08:14.000Z</published>
+    <updated>2021-09-13T07:33:31.098Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-Introduction-of-CSS"><a href="#1-Introduction-of-CSS" class="headerlink" title="1.Introduction of CSS"></a>1.Introduction of CSS</h2><ol>  <li>definition:</li>         Cascading style sheets.(大量落下)  <li>compare with HTML</li>         (1)greater capacity to handle presentation,it can isolate website and its contents,precisely control of contents.<br>         (2)less work<br>         (3)potentially smaller documents<br>         (4)it is well supported,good compatibility.<br></ol><h2 id="2-Fundamental-syntax"><a href="#2-Fundamental-syntax" class="headerlink" title="2.Fundamental syntax"></a>2.Fundamental syntax</h2><p>We should put the syntax in the style.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;style type=&quot;text/css&quot;&gt;</span><br><span class="line">selector name&#123;</span><br><span class="line">       attribute:value;</span><br><span class="line">       attribute:value;</span><br><span class="line">       attribute:value;</span><br><span class="line">       ...</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure><p>For example:</p><pre><code>    &lt;style type=&quot;text/css&quot;&gt;      body&#123;        bgcolor: orange /*annotation*/          color: blue          font-family: &quot;arial black&quot;      &#125;    &lt;/style&gt;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-Introduction-of-CSS&quot;&gt;&lt;a href=&quot;#1-Introduction-of-CSS&quot; class=&quot;headerlink&quot; title=&quot;1.Introduction of CSS&quot;&gt;&lt;/a&gt;1.Introduction of CSS&lt;/</summary>
+      
+    
+    
+    
+    <category term="JAVA" scheme="http://example.com/categories/JAVA/"/>
+    
+    <category term="CSS" scheme="http://example.com/categories/JAVA/CSS/"/>
+    
+    
+    <category term="JAVA" scheme="http://example.com/tags/JAVA/"/>
+    
+    <category term="CSS" scheme="http://example.com/tags/CSS/"/>
+    
+  </entry>
   
   <entry>
     <title>Difference</title>
