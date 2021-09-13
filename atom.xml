@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-13T07:33:31.098Z</updated>
+  <updated>2021-09-13T13:44:16.094Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,20 @@
     <link href="http://example.com/2021/09/13/CSS/"/>
     <id>http://example.com/2021/09/13/CSS/</id>
     <published>2021-09-13T07:08:14.000Z</published>
-    <updated>2021-09-13T07:33:31.098Z</updated>
+    <updated>2021-09-13T13:44:16.094Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="1-Introduction-of-CSS"><a href="#1-Introduction-of-CSS" class="headerlink" title="1.Introduction of CSS"></a>1.Introduction of CSS</h2><ol>  <li>definition:</li>         Cascading style sheets.(大量落下)  <li>compare with HTML</li>         (1)greater capacity to handle presentation,it can isolate website and its contents,precisely control of contents.<br>         (2)less work<br>         (3)potentially smaller documents<br>         (4)it is well supported,good compatibility.<br></ol><h2 id="2-Fundamental-syntax"><a href="#2-Fundamental-syntax" class="headerlink" title="2.Fundamental syntax"></a>2.Fundamental syntax</h2><p>We should put the syntax in the style.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;style type=&quot;text/css&quot;&gt;</span><br><span class="line">selector name&#123;</span><br><span class="line">       attribute:value;</span><br><span class="line">       attribute:value;</span><br><span class="line">       attribute:value;</span><br><span class="line">       ...</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure><p>For example:</p><pre><code>    &lt;style type=&quot;text/css&quot;&gt;      body&#123;        bgcolor: orange /*annotation*/          color: blue          font-family: &quot;arial black&quot;      &#125;    &lt;/style&gt;</code></pre>]]></content>
+    <content type="html"><![CDATA[<h2 id="1-Introduction-of-CSS"><a href="#1-Introduction-of-CSS" class="headerlink" title="1.Introduction of CSS"></a>1.Introduction of CSS</h2><ol>  <li>definition:</li>         Cascading style sheets.(大量落下)  <li>compare with HTML</li>         (1)greater capacity to handle presentation,it can isolate website and its contents,precisely control of contents.<br>         (2)less work<br>         (3)potentially smaller documents<br>         (4)it is well supported,good compatibility.<br></ol><span id="more"></span><h2 id="2-Fundamental-syntax"><a href="#2-Fundamental-syntax" class="headerlink" title="2.Fundamental syntax"></a>2.Fundamental syntax</h2><p>We should put the syntax in the style.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;style type=&quot;text/css&quot;&gt;</span><br><span class="line">selector name&#123;</span><br><span class="line">       attribute:value;</span><br><span class="line">       attribute:value;</span><br><span class="line">       attribute:value;</span><br><span class="line">       ...</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure><p>For example:</p><pre><code>    &lt;style type=&quot;text/css&quot;&gt;      body&#123;        bgcolor: orange /*annotation*/          color: blue          font-family: &quot;arial black&quot;      &#125;    &lt;/style&gt;</code></pre><h2 id="3-Use-css"><a href="#3-Use-css" class="headerlink" title="3.Use css"></a>3.Use css</h2><p>We have three levels of style sheets.</p><ol><li><p>Inline—specified for a specific occurrence of a tag and apply only to that tag.</p><p>ep:</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color: blue;font-size: 20px;&quot;</span>&gt;</span>The love of father is like a mountain.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>Document level—–apply to the whole document in which they appear.</p><p>ep:</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css"><span class="selector-tag">body</span>&#123;</span></span><br><span class="line"><span class="css"><span class="attribute">background-color</span>: aquamarine;</span></span><br><span class="line"><span class="css"><span class="attribute">color</span>: red;</span></span><br><span class="line"><span class="css"><span class="attribute">font-size</span>: <span class="number">50px</span>;</span></span><br><span class="line"><span class="css">&#125;</span></span><br><span class="line"><span class="css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">Mom is the best person in the world.</span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>External style sheets—–can be applied to any number of documents.</p><p>ep:</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*creat an file*/</span></span><br><span class="line"><span class="selector-tag">button</span>&#123;</span><br><span class="line">    <span class="attribute">background-color</span>: coral;</span><br><span class="line"><span class="attribute">color</span>: blueviolet;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* link it to the document*/</span></span><br><span class="line">&lt;link rel=&quot;stylesheet&quot;  href=&quot;css/<span class="number">01s</span>tyle<span class="selector-class">.css</span>&quot;/&gt;</span><br><span class="line"><span class="comment">/* rel:relationship.  href:hypretext reference*/</span></span><br></pre></td></tr></table></figure></li></ol><p>When we have more than one style,we conform to “nearest first” principle.</p><p>(MIME:multipurpose internet extensions)</p><h2 id="4-Selector"><a href="#4-Selector" class="headerlink" title="4.Selector"></a>4.Selector</h2><p>We have two large group of selectors,common selector and ??? selector. </p><p>Common selector is composed of generic selector(*{}),class selector(.value{}),id selector(#value{}),and element selector(element name{},div{},p{}).</p><ul>  <li>id>class>element>generic</li>  <li>The value of id selector shouldn't take number as the beginning.</li>  <li>*  #  .  labelname</li></ul>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h2 id=&quot;1-Introduction-of-CSS&quot;&gt;&lt;a href=&quot;#1-Introduction-of-CSS&quot; class=&quot;headerlink&quot; title=&quot;1.Introduction of CSS&quot;&gt;&lt;/a&gt;1.Introduction of CSS&lt;/</summary>
-      
+    <summary type="html">&lt;h2 id=&quot;1-Introduction-of-CSS&quot;&gt;&lt;a href=&quot;#1-Introduction-of-CSS&quot; class=&quot;headerlink&quot; title=&quot;1.Introduction of CSS&quot;&gt;&lt;/a&gt;1.Introduction of CSS&lt;/h2&gt;&lt;ol&gt;
+  &lt;li&gt;definition:&lt;/li&gt;
+         Cascading style sheets.(大量落下)
+  &lt;li&gt;compare with HTML&lt;/li&gt;
+         (1)greater capacity to handle presentation,it can isolate website and its contents,precisely control of contents.&lt;br&gt;
+         (2)less work&lt;br&gt;
+         (3)potentially smaller documents&lt;br&gt;
+         (4)it is well supported,good compatibility.&lt;br&gt;
+&lt;/ol&gt;</summary>
     
     
     
@@ -38,9 +43,9 @@
     <category term="CSS" scheme="http://example.com/categories/JAVA/CSS/"/>
     
     
-    <category term="JAVA" scheme="http://example.com/tags/JAVA/"/>
-    
     <category term="CSS" scheme="http://example.com/tags/CSS/"/>
+    
+    <category term="JAVA" scheme="http://example.com/tags/JAVA/"/>
     
   </entry>
   
@@ -66,9 +71,9 @@
     <category term="HTML" scheme="http://example.com/categories/JAVA/HTML/"/>
     
     
-    <category term="HTML" scheme="http://example.com/tags/HTML/"/>
-    
     <category term="JAVA" scheme="http://example.com/tags/JAVA/"/>
+    
+    <category term="HTML" scheme="http://example.com/tags/HTML/"/>
     
   </entry>
   
@@ -101,9 +106,9 @@
     <link href="http://example.com/2021/09/11/ILETS/"/>
     <id>http://example.com/2021/09/11/ILETS/</id>
     <published>2021-09-11T14:26:50.000Z</published>
-    <updated>2021-09-13T06:48:11.489Z</updated>
+    <updated>2021-09-13T14:57:18.176Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Vocabulary"><a href="#Vocabulary" class="headerlink" title="Vocabulary"></a>Vocabulary</h2><h3 id="We-eat-flowers"><a href="#We-eat-flowers" class="headerlink" title="We eat flowers."></a>We eat flowers.</h3><p>1.vegetable:   We eat the part of a plant.It has no seeds.</p><p>2.flower:  The part of the plant makes  seeds.</p><p>3.leaf:  The flat,green part of a plant.</p><span id="more"></span><p>4.root:  We cannot see it because it is under the ground.It grows down in the dirt.</p><p>5.stem:  It is the part that holds the plant up,we say trunk for a tree, a stem for  a small plant.</p><p>6.seed:  The part of the plant that grows into a new plant. </p><p>7.carrot:  A long orange vegetable.</p><p>8.eat:  To put food into your mouth  and chew,  swallow.</p><p>9.potato:  Round white vegetables that grow in the dirt.</p><p>10.lettuce:  A plant with large green leaves that are eaten raw, especially in salad.(生菜🥬 莴苣)</p><p>11.pea:  The seed of a pea plant that we eat.</p><p>12.smell:  To have an odor.(odor is a distinctive smell, especially  an unpleasant one)</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Vocabulary"><a href="#Vocabulary" class="headerlink" title="Vocabulary"></a>Vocabulary</h2><h3 id="We-eat-flowers"><a href="#We-eat-flowers" class="headerlink" title="We eat flowers."></a>We eat flowers.</h3><p>1.vegetable:   We eat the part of a plant.It has no seeds.</p><p>2.flower:  The part of the plant makes  seeds.</p><p>3.leaf:  The flat,green part of a plant.</p><span id="more"></span><p>4.root:  We cannot see it because it is under the ground.It grows down in the dirt.</p><p>5.stem:  It is the part that holds the plant up,we say trunk for a tree, a stem for  a small plant.</p><p>6.seed:  The part of the plant that grows into a new plant. </p><p>7.carrot:  A long orange vegetable.</p><p>8.eat:  To put food into your mouth  and chew,  swallow.</p><p>9.potato:  Round white vegetables that grow in the dirt.</p><p>10.lettuce:  A plant with large green leaves that are eaten raw, especially in salad.(生菜🥬 莴苣)</p><p>11.pea:  The seed of a pea plant that we eat.</p><p>12.smell:  To have an odor.(odor is a distinctive smell, especially  an unpleasant one)</p><h3 id="Not-just-for-food"><a href="#Not-just-for-food" class="headerlink" title="Not just for food"></a>Not just for food</h3><ol style="color:green">  <li>lemons: We don't just eat lemons,we also use lemons to make soap,it is a kind of yellow fruit and tastes sour.  </li><li>toothpaste: We put it on the toothbrush to brush our teeth.</li>  <li>perfume: It is made of flowers,a liquid that girls use to smells nice.</li>  <li>oil: Pour it in the pan,to cook food,it is very slippery.</li>  <li>rope: A strong line we tie to things.</li>  <li>soap: We use it to wash face and hands,it helps your hands clearly.</li>  <li>food: We eat it to get energy,it is very delicious.(plants meat)</li>  <li>mint: it tastes very fresh,and can be used to make icecream,hot chocolate.(薄荷)</li>  <li>lemonade: A drink with lemon flavor(柠檬水)</li>  <li>corn: A long,yellow vegetable with green skin.It has many little pieces.</li>  <li>jump rope: To make your body strong,the player jumps over a rope.</li>  <li>tug of war: A game in which two teams hold a rope and pull against each other.</li></ol>]]></content>
     
     
     <summary type="html">&lt;h2 id=&quot;Vocabulary&quot;&gt;&lt;a href=&quot;#Vocabulary&quot; class=&quot;headerlink&quot; title=&quot;Vocabulary&quot;&gt;&lt;/a&gt;Vocabulary&lt;/h2&gt;&lt;h3 id=&quot;We-eat-flowers&quot;&gt;&lt;a href=&quot;#We-eat-flowers&quot; class=&quot;headerlink&quot; title=&quot;We eat flowers.&quot;&gt;&lt;/a&gt;We eat flowers.&lt;/h3&gt;&lt;p&gt;1.vegetable:   We eat the part of a plant.It has no seeds.&lt;/p&gt;

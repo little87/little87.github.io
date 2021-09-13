@@ -30,10 +30,10 @@
 <meta property="og:description" content="1.Introduction of CSS   definition:          Cascading style sheets.(大量落下)   compare with HTML          (1)greater capacity to handle presentation,it can isolate website and its contents,precisely con">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-09-13T07:08:14.000Z">
-<meta property="article:modified_time" content="2021-09-13T07:33:31.098Z">
+<meta property="article:modified_time" content="2021-09-13T13:44:16.094Z">
 <meta property="article:author" content="林锋">
-<meta property="article:tag" content="JAVA">
 <meta property="article:tag" content="CSS">
+<meta property="article:tag" content="JAVA">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://example.com/2021/09/13/CSS/">
@@ -200,7 +200,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-09-13 15:08:14 / Modified: 15:33:31" itemprop="dateCreated datePublished" datetime="2021-09-13T15:08:14+08:00">2021-09-13</time>
+              <time title="Created: 2021-09-13 15:08:14 / Modified: 21:44:16" itemprop="dateCreated datePublished" datetime="2021-09-13T15:08:14+08:00">2021-09-13</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -237,6 +237,8 @@
          (4)it is well supported,good compatibility.<br>
 </ol>
 
+<span id="more"></span>
+
 <h2 id="2-Fundamental-syntax"><a href="#2-Fundamental-syntax" class="headerlink" title="2.Fundamental syntax"></a>2.Fundamental syntax</h2><p>We should put the syntax in the style.</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;style type=&quot;text/css&quot;&gt;</span><br><span class="line">selector name&#123;</span><br><span class="line">       attribute:value;</span><br><span class="line">       attribute:value;</span><br><span class="line">       attribute:value;</span><br><span class="line">       ...</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
 
@@ -249,6 +251,30 @@
       &#125;
     &lt;/style&gt;
 </code></pre>
+<h2 id="3-Use-css"><a href="#3-Use-css" class="headerlink" title="3.Use css"></a>3.Use css</h2><p>We have three levels of style sheets.</p>
+<ol>
+<li><p>Inline—specified for a specific occurrence of a tag and apply only to that tag.</p>
+<p>ep:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color: blue;font-size: 20px;&quot;</span>&gt;</span>The love of father is like a mountain.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li><p>Document level—–apply to the whole document in which they appear.</p>
+<p>ep:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css">		<span class="selector-tag">body</span>&#123;</span></span><br><span class="line"><span class="css">			<span class="attribute">background-color</span>: aquamarine;</span></span><br><span class="line"><span class="css">			<span class="attribute">color</span>: red;</span></span><br><span class="line"><span class="css">			<span class="attribute">font-size</span>: <span class="number">50px</span>;</span></span><br><span class="line"><span class="css">		&#125;</span></span><br><span class="line"><span class="css">		</span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">		Mom is the best person in the world.</span><br><span class="line">	<span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li><p>External style sheets—–can be applied to any number of documents.</p>
+<p>ep:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*creat an file*/</span></span><br><span class="line"><span class="selector-tag">button</span>&#123;</span><br><span class="line">    <span class="attribute">background-color</span>: coral;</span><br><span class="line">	<span class="attribute">color</span>: blueviolet;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* link it to the document*/</span></span><br><span class="line">&lt;link rel=&quot;stylesheet&quot;  href=&quot;css/<span class="number">01s</span>tyle<span class="selector-class">.css</span>&quot;/&gt;</span><br><span class="line"><span class="comment">/* rel:relationship.  href:hypretext reference*/</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>When we have more than one style,we conform to “nearest first” principle.</p>
+<p>(MIME:multipurpose internet extensions)</p>
+<h2 id="4-Selector"><a href="#4-Selector" class="headerlink" title="4.Selector"></a>4.Selector</h2><p>We have two large group of selectors,common selector and ??? selector. </p>
+<p>Common selector is composed of generic selector(*{}),class selector(.value{}),id selector(#value{}),and element selector(element name{},div{},p{}).</p>
+<ul>
+  <li>id>class>element>generic</li>
+  <li>The value of id selector shouldn't take number as the beginning.</li>
+  <li>*  #  .  labelname</li>
+</ul>
+
+
+
 
     </div>
 
@@ -287,8 +313,8 @@
 </div>
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/JAVA/" rel="tag"># JAVA</a>
               <a href="/tags/CSS/" rel="tag"># CSS</a>
+              <a href="/tags/JAVA/" rel="tag"># JAVA</a>
           </div>
 
         
@@ -364,7 +390,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Introduction-of-CSS"><span class="nav-number">1.</span> <span class="nav-text">1.Introduction of CSS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Fundamental-syntax"><span class="nav-number">2.</span> <span class="nav-text">2.Fundamental syntax</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Introduction-of-CSS"><span class="nav-number">1.</span> <span class="nav-text">1.Introduction of CSS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Fundamental-syntax"><span class="nav-number">2.</span> <span class="nav-text">2.Fundamental syntax</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-Use-css"><span class="nav-number">3.</span> <span class="nav-text">3.Use css</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-Selector"><span class="nav-number">4.</span> <span class="nav-text">4.Selector</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -452,7 +478,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共1.6k字</span>
+  <span class="post-count">博客全站共1.9k字</span>
 </div>
 
         
