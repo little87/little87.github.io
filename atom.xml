@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-15T13:54:33.501Z</updated>
+  <updated>2021-09-20T08:33:57.052Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>swiftUI</title>
+    <link href="http://example.com/2021/09/19/swiftUI/"/>
+    <id>http://example.com/2021/09/19/swiftUI/</id>
+    <published>2021-09-19T13:20:37.000Z</published>
+    <updated>2021-09-20T08:33:57.052Z</updated>
+    
+    <content type="html"><![CDATA[<h2>  Apple tutorial about swiftUI</h2><style>  li{    color:purple  }</style><ol>  <li>how to adjust the size of text?</li>  .font()  //headline  Largetitle title / .custom()  .system()  <li>how to add a shadow and a strokeline to an image?</li>  .shadow(radius:4) &nbsp;&nbsp; .stroke(Color.blue,lineWidth:2)  <li>CLLocationCoordinate2D</li>  it is a struct,name is CLLocationCoordinate2D,it has two parameters logitude and latitude.<br>  ep: let location=CLLocationCoordinate2D(logitude:51.0,latitude:5.66)<br>  it use the WGS 84 reference frame.WGS=World Geodetic System,it can be translated 世界测量系统 in chinese,it is the basement of GPS.  <li>MKCoordinateSpan</li>  it is the width and heigth of a map region.we can initialize it by using this syntax:  <br>init(latitudeDelta:CLLocationDegrees,longitudeDelta:CLLocationDegrees)<br>  <li>MKCoordinateRegion</li>  it is rectangular geographic region centerd around a specific logitude and latitude.  we have many ways to initialize it:  <ul>    <li>init(center:CLLocationCoordinate2D,span:MKCoordinateSpan)</li>    <li>init(_ rect:MKMapRect)</li>    <li>init()</li>  </ul>  <li>How to show a map?</li>    Map(coordinateRegion:Binding MKCoordinateRegion)</ol><span id="more"></span><ol>  <li>switch button</li>  Toggle(isOn:$Boolean value){Text("这个按钮干啥的") }  <li>@EnvironmentObject</li>  first,create a class with ObservableObject;second, add Published attributes;third,we need put its instance (let instance=YYYY()) to ancestor Viw,like a navigationView in contentView;last,in our child view,we need to accept it by this syntax: @EnvironmentObject var x:YYYY  <li>TabView</li>  TabView is the ancestor of all kinds of views.we can add .tabItem{} attribute to each view.  <li>how to load file </li> FileManager.default.contentsOfDirectory(atPath:String)<br>  String---Bundle.main.resourcePath!<br>  Bundle.main.url(forResources:"",withExtension:nil)  <li>filter()</li>  array.filter{element in         element.attribute// if true,return these elements,it will create a new array.<br>  <li>how to dramatic?</li>  Path{     path in               path.move(to:CGPoint(x:,y:))<br>                path.addline(to:CGPoint(x:,y))       }<br>  <li>Gradient</li>  we have three kinds of Gradient.<br>  ep:LinearGradient(Gradient(colors:[.red,.blue]),startPoint:.top,endPoint:.bottom)  <li>how add icon for your app?</li>  replace the default Appleicon.appiconset document.  <li>how to categorize elements in  an array ? </li>  </ol>  <figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> categories: [<span class="type">String</span>: [<span class="type">Landmark</span>]] &#123;</span><br><span class="line">      <span class="type">Dictionary</span>(</span><br><span class="line">          grouping: landmarks,</span><br><span class="line">          by: &#123; <span class="variable">$0</span>.category.rawValue &#125;</span><br><span class="line">      )</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure><ol>  as you can see,landmark is the type of element in this array,we use a dictionary to classify it,grouping means what will be sorted,by means how we do that.  <li>key value?</li>  when we use dictionary to classify something,the result will like this:<br>   ["大":["5,9,8"],"小":["1,0,3"],"中":[4,4,4]]<br>  so,the keys are "大","小","中".  <li></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;h2&gt;
+  Apple tutorial about swiftUI
+&lt;/h2&gt;
+&lt;style&gt;
+  li{
+    color:purple
+  }
+&lt;/style&gt;
+&lt;ol&gt;
+  &lt;li&gt;how to adjust the size of text?&lt;/li&gt;
+  .font()  //headline  Largetitle title / .custom()  .system()
+  &lt;li&gt;how to add a shadow and a strokeline to an image?&lt;/li&gt;
+  .shadow(radius:4) &amp;nbsp;&amp;nbsp; .stroke(Color.blue,lineWidth:2)
+  &lt;li&gt;CLLocationCoordinate2D&lt;/li&gt;
+  it is a struct,name is CLLocationCoordinate2D,it has two parameters logitude and latitude.&lt;br&gt;
+  ep: let location=CLLocationCoordinate2D(logitude:51.0,latitude:5.66)&lt;br&gt;
+  it use the WGS 84 reference frame.WGS=World Geodetic System,it can be translated 世界测量系统 in chinese,it is the basement of GPS.
+  &lt;li&gt;MKCoordinateSpan&lt;/li&gt;
+  it is the width and heigth of a map region.we can initialize it by using this syntax:
+  &lt;br&gt;init(latitudeDelta:CLLocationDegrees,longitudeDelta:CLLocationDegrees)&lt;br&gt;
+  &lt;li&gt;MKCoordinateRegion&lt;/li&gt;
+  it is rectangular geographic region centerd around a specific logitude and latitude.
+  we have many ways to initialize it:
+  &lt;ul&gt;
+    &lt;li&gt;init(center:CLLocationCoordinate2D,span:MKCoordinateSpan)&lt;/li&gt;
+    &lt;li&gt;init(_ rect:MKMapRect)&lt;/li&gt;
+    &lt;li&gt;init()&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;How to show a map?&lt;/li&gt;
+    Map(coordinateRegion:Binding MKCoordinateRegion)
+&lt;/ol&gt;</summary>
+    
+    
+    
+    <category term="iOS" scheme="http://example.com/categories/iOS/"/>
+    
+    
+    <category term="swift" scheme="http://example.com/tags/swift/"/>
+    
+    <category term="swiftUI" scheme="http://example.com/tags/swiftUI/"/>
+    
+  </entry>
   
   <entry>
     <title>ios</title>
